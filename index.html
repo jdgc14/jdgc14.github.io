@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="menu">
+        <label for="menu-check" id="label-menu" class="col-11-menu row menu-label">
+            <img src="images/menu 1.svg" alt="" class="icon-menu">
+        </label>
+        <input type="checkbox" id="menu-check" class="menu-check">
+        <div class="container-buttons">
+            <a href="#home" class="menu-options zoom">Home</a>
+            <a href="#services" class="menu-options zoom">Servicios</a>
+            <a href="#about-me" class="menu-options zoom">Acerca de mí</a>
+            <a href="#skills" class="menu-options zoom">Mis habilidades</a>
+            <a href="#portfolio" class="menu-options zoom">Mi portafolio</a>
+            <a href="#contact" class="menu-options zoom">Contacto</a>
+        </div>
+    </nav>
+    <div class="home padding1-5rem padding2-5rem" id="home">
+        <div class="information-left z-index99">
+            <p class="title-white subtitle-extra-small subtitle-small subtitle-medium subtitle-big">Soy</p>
+            <p class="big-title-blue title-extra-small title-small title-medium title-big">Jose</p>
+            <p class="experiencie-info subsection-extra-small subsection-small subsection-medium subsection-big">Estudiante de Desarrollo FullStack y Python</p>
+        </div>
+        <div class="information-right z-index99">
+            <p class="experiencie-info subsection-extra-small subsection-small subsection-medium subsection-big"><span>6 meses</span> experiencia</p>
+            
+            <div class="links-social-container">
+                <a href="https://www.linkedin.com/in/jdgc14/" class="social-buttons bg-color-gray zoom" target="_blank">
+                    <i class="fa-brands fa-linkedin-in icon-buttons"></i>
+                </a>
+                <a href="https://twitter.com/learner_14" class="social-buttons bg-color-gray zoom" target="_blank">
+                    <!-- <img class="icon-buttons" src="images/ant-design_twitter-outlined.svg" alt=""> -->
+                    <i class="fa-brands fa-twitter icon-buttons"></i>
+                </a>
+                <a href="https://github.com/jdgc14" class="social-buttons bg-color-gray zoom" target="_blank">
+                    <i class="fa-brands fa-github icon-buttons"></i>
+                </a>
+            </div>
+        </div>
+        <div class="photo-section">
+            <img class="photo" src="images/descarga.png" alt="">
+        </div>
+        <!-- <div class="links-section">
+            <button class="links-buttons bg-color-gray zoom">
+                <img class="icon-links bg-color-gray" src="images/akar-icons_google-fill.png" alt="">
+            </button>
+            <button class="links-buttons bg-color-gray zoom">
+                <img class="icon-links" src="images/ant-design_amazon-outlined.png" alt="">
+            </button>
+            <button class="links-buttons bg-color-gray zoom">
+                <img class="icon-links" src="images/bi_spotify.png" alt="">
+            </button>
+        </div> -->
+    </div>
+    <div class="about-me text-center padding1-5rem padding2-5rem" id="about-me">
+        <h2 class="font-blue subtitle-extra-small subtitle-small subtitle-medium subtitle-big">About me</h2>
+        <p class="body-text-extra-small body-text-big">
+            <strong>José Daniel González, 23 años,</strong> siempre me he caracterizado por ser una persona que busca aprender cosas nuevas, me gusta estar en constante aprendizaje y sumado a mi pasión por la lógica y la programación voy en camino a ser un gran desarrollador, actualmente estoy cursando el programa Full-Stack de Academlo y también estoy cursando un programa de Python a nivel intermedio, autodidacticamente estoy aprendiendo tecnologías como Django, Django REST Framework, y espero poder seguir adquiriendo conocimientos toda mi vida.
+        </p>
+    </div>
+    <div class="services text-center padding1-5rem padding2-5rem" id="services">
+        <h2 class="font-blue subtitle-extra-small subtitle-small subtitle-medium subtitle-big ">Services</h2>
+        <div class="services-scroll">
+            <div class="card zoom">
+                <img class="icon-card" src="images/icons8-python.svg" alt="">
+                <p class="card-title">Python</p>
+                <p class="card-text margin15">Manejo de estructuras de datos y tecnologías como Django y Django REST Framework.</p>
+            </div>
+            <div class="card zoom">
+                <img class="icon-card" src="images/icons8-react.svg" alt="">
+                <p class="card-title">ReactJS</p>
+                <p class="card-text margin15">Creacion y manipulacion de componentes y hooks personalizados, consumo de API's.</p>
+            </div>
+
+            <div class="card zoom">
+                <img class="icon-card" src="images/icons8-javascript.svg" alt="">
+                <p class="card-title">JavaScript</p>
+                <p class="card-text margin15">Implementación de scripts para modificar HTML's.</p>
+            </div>
+            <div class="card zoom">
+                <img class="icon-card" src="images/icons8-css3.svg" alt="">
+                <p class="card-title">CSS</p>
+                <p class="card-text margin15">Apasionándome por las hojas de estilos y su potencial.</p>
+            </div>
+        </div>
+    </div>
+    <div class="skills padding1-5rem padding2-5rem" id="skills">
+        <h2 class="font-blue subtitle-extra-small subtitle-small subtitle-medium subtitle-big text-center">My skills</h2>
+        <div class="skills-contain-parent">
+            <p class="skills-subtitle">Python</p>
+            <div class="skills-cointain">
+                <div id="skills-cointain-id" class="width75">
+                    <p>75%</p>
+                </div>
+            </div>
+            <p class="skills-subtitle">ReactJS</p>
+            <div class="skills-cointain">
+                <div id="skills-cointain-id" class="width50">
+                    <p>50%</p>
+                </div>
+            </div>
+            <p class="skills-subtitle">JavaScript</p>
+            <div class="skills-cointain">
+                <div id="skills-cointain-id" class="width55">
+                    <p>55%</p>
+                </div>
+            </div>
+            <p class="skills-subtitle">CSS</p>
+            <div class="skills-cointain">
+                <div id="skills-cointain-id" class="width60">
+                    <p>60%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio padding1-5rem padding2-5rem" id="portfolio">
+        <h2 class="font-blue subtitle-extra-small subtitle-small subtitle-medium subtitle-big text-center">My portfolio</h2>
+        <div class="images-portfolio">
+            <img src="images/Rectangle 65.jpg" alt="">
+            <img src="images/image 4.jpg" alt="">
+            <img src="images/Rectangle 53.jpg" alt="">
+            <img src="images/Group 47.jpg" alt="">
+        </div>
+    </div>
+    <div class="contact padding1-5rem padding2-5rem" id="contact">
+        <h2 class="title-contact font-blue subtitle-extra-small subtitle-small subtitle-medium subtitle-big text-center">Contact</h2>
+        <div class="card-contain-left">
+            <a href="https://api.whatsapp.com/send?phone=573217518309" class="card-contact">
+                <!-- <i class="fa-brands fa-whatsapp icon-contact-card"></i> -->
+                <img class="icon-contact-card" src="images/whatsapp.png" alt="">
+                <p class="card-contact-title margin05">Phone Number</p>
+                <p class="card-contact-text margin05">+573217518309</p>
+            </a>
+        </div>
+        <div class="card-contain-right">
+            <a href="mailto:joseojedapro@gmail.com" class="card-contact">
+                <img class="icon-contact-card" src="images/gmail.png" alt="">
+                <p class="card-contact-title margin05">Gmail</p>
+                <p class="card-contact-text margin05">joseojedapro@gmail.com</p>
+            </a>
+        </div>
+    </div>
+    <div class="footer bg-alter">
+        <h4>Hecho con &#128153; en Academlo</h4>
+    </div>
+</body>
+</html>
