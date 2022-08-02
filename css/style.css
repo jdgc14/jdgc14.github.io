@@ -89,6 +89,26 @@ a {
     text-align: center;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
 /* -----------Menu ----------- */
 
 .menu {
@@ -155,7 +175,7 @@ a {
 }
 
 .information-right {
-    grid-column: 3;
+    grid-column: 4;
     grid-row: 1;
 }
 
@@ -192,7 +212,7 @@ a {
 .photo-section {
     background-color: #2f2a3f;
     border-radius: 50%;
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     grid-row: 1;
     justify-self: center;
 }
@@ -257,7 +277,7 @@ a {
 .card {
     width: 15rem;
     margin: 0 0.5rem 0 0;
-    padding: 0;
+    padding: 2rem;
     display: inline-block;
     background-color: #ffffff;
     color: #d1ceca;
@@ -270,7 +290,7 @@ a {
 
 .icon-card {
     width: 6rem;
-    margin-top: 2rem;
+    height: 6rem;
 }
 
 .card-title {
@@ -286,6 +306,15 @@ a {
     margin-bottom: 4rem;
     color: black;
     font-weight: bold;
+}
+
+.heart {
+    color: red;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
+    top: 10px;
+    left: 0;
 }
 
 
@@ -370,14 +399,24 @@ a {
     white-space: nowrap;
     scrollbar-width: none;
 }
+/* 
+.images-portfolio::-webkit-scrollbar {
+    display: none;
+} */
 
-.images-portfolio :nth-child(n) {
-    height: 13rem;
+/* .images-portfolio :nth-child(n) {
+    height: 17rem;
+    width: 17rem;
+    margin: 0 1rem 0 0;
+    padding: 0;
+} */
+
+.images-portfolio img {
+    height: 17rem;
     width: 17rem;
     margin: 0 1rem 0 0;
     padding: 0;
 }
-
 
 /* ------------- Contact ------------- */
 
