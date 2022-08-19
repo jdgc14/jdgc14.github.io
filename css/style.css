@@ -4,14 +4,24 @@ body {
     margin: 0;
     font-family: Montserrat;
     color: #ffffff;
-    background-color: #0e0022;
+    background-color: #000000;
     box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
 }
+.back-soon{
+    display: grid;
+    place-content: center;
+}
 
+.img-back-soon{
+    object-fit: contain;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
 
 /* ANIMATIONS */
 
