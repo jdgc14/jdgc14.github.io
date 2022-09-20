@@ -6,8 +6,8 @@ var typed = new Typed(".typing", {
     "Software Developer.",
     // "Web Designer",
   ],
-  typespeed: 1000,
-  Backspeed: 60,
+  typespeed: 150,
+  Backspeed: 30,
   backDelay: 1500,
   loop: true,
 });
@@ -88,25 +88,4 @@ function asideSectionTogglerBtn() {
   }
 }
 
-/* const btn = document.getElementById('btn');
-   btn.addEventListener("click", function (e) {
-      e.preventDefault()
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const topic = document.getElementById('topic').value;
-      const message = document.getElementById('message').value;
-      const body = 'name: ' + name + '<br/> email: ' + email + '<br/> assunto' + topic + '<br/> mensagem' + message;
-      Email.send({
-         Host : "smtp.outlook.com",
-         Username : "barbara.cp@outlook.com",
-         Password : "tkqyphecnldqfdfg",
-         To : 'barbara.cp0801@gmail.com',
-         From : email,
-         Subject : topic,
-         Body : body
-     }).then(
-       message => alert(message),
-       console.log('email enviado')
-     );
-   })
-  */
+const addProjects = () => {};
