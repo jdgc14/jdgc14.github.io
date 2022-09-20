@@ -6,9 +6,9 @@ var typed = new Typed(".typing", {
     "Software Developer.",
     // "Web Designer",
   ],
-  typespeed: 150,
-  Backspeed: 30,
-  backDelay: 1500,
+  typespeed: 1500,
+  Backspeed: 3000,
+  backDelay: 2500,
   loop: true,
 });
 
