@@ -1,9 +1,9 @@
 var typed = new Typed(".typing", {
   strings: [
-    "Web Developer.",
-    "Full-Stack Developer.",
-    "Python Developer.",
-    "Software Developer.",
+    "Desarrollador Web.",
+    "Desarrollador Full-Stack.",
+    "Desarrollador Python.",
+    "Desarrollador de Software.",
     // "Web Designer",
   ],
   typespeed: 1500,
