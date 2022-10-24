@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:ital,wght@0,300;400;500;600;700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
   --bg-black-900: #f2f2fc;
@@ -419,6 +419,11 @@ h3.my-profession {
   max-width: 50%;
 }
 
+.info-item-icon {
+  flex: 0 0 50%;
+  max-width: 33%;
+}
+
 .about .about-content .personal-info .info-item p {
   font-weight: 600;
   padding: 10px 0;
@@ -632,7 +637,6 @@ h3.my-profession {
   margin-bottom: 15px;
   color: var(--text-black-900);
   font-weight: 600;
-  text-transform: capitalize;
 }
 
 .service .service-item .service-item-inner p {
