@@ -1,8 +1,9 @@
 var typed = new Typed(".typing", {
   strings: [
     "Desarrollador Web.",
-    "Desarrollador Full-Stack.",
+    // "Desarrollador Full-Stack.",
     "Desarrollador Python.",
+    "Desarrollador Backend.",
     "Desarrollador de Software.",
     // "Web Designer",
   ],
