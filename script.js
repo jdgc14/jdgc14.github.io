@@ -1,10 +1,11 @@
 var typed = new Typed(".typing", {
   strings: [
     "Desarrollador Web.",
-    // "Desarrollador Full-Stack.",
     "Desarrollador Python.",
+    "Desarrollador Odoo.",
+    "Desarrollador Full-Stack.",
     "Desarrollador Backend.",
-    "Desarrollador de Software.",
+    // "Desarrollador de Software.",
     // "Web Designer",
   ],
   typespeed: 1500,
