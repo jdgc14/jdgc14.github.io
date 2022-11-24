@@ -598,25 +598,25 @@ h3.my-profession {
   background-color: var(--bg-black-100);
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
-  padding: 30px 15px;
+  padding: 30px 20px;
   text-align: center;
   transition: all 0.35s ease;
-  height: 180px;
+  height: 300px;
 }
 
-.service .service-item .service-item-inner:hover {
+/* .service .service-item .service-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   border: var(--skin-color) 2px solid;
-}
+} */
 
 .icon-skills-container {
   height: 80px;
   width: 80px;
-  padding: 10px;
+  padding: 5;
   border-radius: 50%;
   display: grid;
   place-content: center;
-  margin: 0 auto 30px;
+  margin: 0 auto 5px;
   transition: all 0.3s ease;
 }
 
@@ -640,10 +640,22 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner p {
-  font-size: 16px;
+  font-size: 13px;
   color: var(--text-black-700);
-  line-height: 25px;
+  line-height: 15px;
+  text-align: start;
+  font-weight: 600;
 }
+
+.service .service-item .service-item-inner a {
+  display: inline-block;
+  font-size: 15px;
+  color: var(--text-black-900);
+  text-align: center;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
 
 .portfolio .container {
   padding-bottom: 40px;
