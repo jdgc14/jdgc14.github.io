@@ -604,10 +604,15 @@ h3.my-profession {
   height: 300px;
 }
 
-/* .service .service-item .service-item-inner:hover {
+.service-item-no-text {
+  height: 220px !important;
+}
+
+.service .service-item .service-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  border: var(--skin-color) 2px solid;
-} */
+  scale: 1.05;
+  /* border: var(--skin-color) 2px solid; */
+}
 
 .icon-skills-container {
   height: 80px;
@@ -638,6 +643,7 @@ h3.my-profession {
   color: var(--text-black-900);
   font-weight: 600;
 }
+
 
 .service .service-item .service-item-inner p {
   font-size: 13px;
